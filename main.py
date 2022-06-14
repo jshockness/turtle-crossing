@@ -31,5 +31,6 @@ while game_is_on:
   # Detect if player finished
   if player.is_finished():
     player.goto_start()
+    cars.level_up()
 
 screen.exitonclick()
